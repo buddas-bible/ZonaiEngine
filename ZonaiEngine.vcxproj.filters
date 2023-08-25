@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Entities">
+      <UniqueIdentifier>{2b38e8a0-27b1-4d1f-9d9e-f28e2ce002ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. System">
+      <UniqueIdentifier>{db4726b5-f8be-44f3-a914-6ba9c568150f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Manager">
+      <UniqueIdentifier>{fe7b54c9-f8b2-416a-b4c2-57ecab9eff39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Graphics">
+      <UniqueIdentifier>{fd5bd7e3-a28f-44e6-83f5-b064a336018f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Physics">
+      <UniqueIdentifier>{30f0d4d6-bfc0-490f-9d46-bf040af44113}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>1. Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>1. Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>1. Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>1. Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp" />
+  </ItemGroup>
+</Project>
