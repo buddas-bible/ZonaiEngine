@@ -70,8 +70,6 @@ namespace ZonaiMath
 		Matrix2x2& operator-= (const Matrix2x2&) noexcept;
 		Matrix2x2 operator* (const Matrix2x2&) const noexcept;
 		Matrix2x2& operator*= (const Matrix2x2&) noexcept;
-		Matrix2x2 operator/ (const Matrix2x2&) const noexcept;
-		Matrix2x2& operator/= (const Matrix2x2&) noexcept;
 
 		bool operator == (const Matrix2x2&) noexcept;
 	};

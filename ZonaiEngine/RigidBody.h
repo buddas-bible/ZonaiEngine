@@ -43,7 +43,6 @@ namespace ZonaiEngine
 		void SetRestitution(const float) noexcept;
 		void SetLinerDrag(const float) noexcept;
 		void SetAngularDrag(const float) noexcept;
-		void SetRestitution(const float) noexcept;
 		void SetVelocity(const ZonaiMath::Vector3D&) noexcept;
 		void SetAngularVelocity(const ZonaiMath::Vector3D&) noexcept;
 #pragma endregion Set
