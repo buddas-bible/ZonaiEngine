@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="0. ZonaiPhysics">
+    <Filter Include="00. ZonaiPhysics">
       <UniqueIdentifier>{4f6d7b96-452e-43d4-af90-f777e0149f7e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="1. World">
+    <Filter Include="01. World">
       <UniqueIdentifier>{a6c09e93-7afe-4065-9328-cd42a8a8649e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="2. RigidBody">
+    <Filter Include="02. RigidBody">
       <UniqueIdentifier>{049e7373-dc62-4c43-b4bf-f2d6c47ac2e6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="3. Collider">
+    <Filter Include="03. Collider">
       <UniqueIdentifier>{3d923f02-8b04-49c2-ac8e-0267e354c380}</UniqueIdentifier>
     </Filter>
-    <Filter Include="4. Shape">
+    <Filter Include="04. Shape">
       <UniqueIdentifier>{35334a03-b604-402e-960c-a9d7b82ab6b7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="5. Constrains">
+    <Filter Include="05. Constrains">
       <UniqueIdentifier>{66836935-c41f-4849-a33f-23d40c61bb14}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ZonaiPhysics.h">
-      <Filter>0. ZonaiPhysics</Filter>
+      <Filter>00. ZonaiPhysics</Filter>
     </ClInclude>
     <ClInclude Include="World.h">
-      <Filter>1. World</Filter>
+      <Filter>01. World</Filter>
     </ClInclude>
     <ClInclude Include="RigidBody.h">
-      <Filter>2. RigidBody</Filter>
+      <Filter>02. RigidBody</Filter>
     </ClInclude>
     <ClInclude Include="Collider.h">
-      <Filter>3. Collider</Filter>
+      <Filter>03. Collider</Filter>
     </ClInclude>
     <ClInclude Include="BoxCollider.h">
-      <Filter>3. Collider</Filter>
+      <Filter>03. Collider</Filter>
     </ClInclude>
     <ClInclude Include="PlaneCollider.h">
-      <Filter>3. Collider</Filter>
+      <Filter>03. Collider</Filter>
     </ClInclude>
     <ClInclude Include="Joint.h">
-      <Filter>5. Constrains</Filter>
+      <Filter>05. Constrains</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="World.cpp">
-      <Filter>1. World</Filter>
+      <Filter>01. World</Filter>
     </ClCompile>
     <ClCompile Include="RigidBody.cpp">
-      <Filter>2. RigidBody</Filter>
+      <Filter>02. RigidBody</Filter>
     </ClCompile>
     <ClCompile Include="Collider.cpp">
-      <Filter>3. Collider</Filter>
+      <Filter>03. Collider</Filter>
     </ClCompile>
     <ClCompile Include="BoxCollider.cpp">
-      <Filter>3. Collider</Filter>
+      <Filter>03. Collider</Filter>
     </ClCompile>
     <ClCompile Include="PlaneCollider.cpp">
-      <Filter>3. Collider</Filter>
+      <Filter>03. Collider</Filter>
     </ClCompile>
     <ClCompile Include="Joint.cpp">
-      <Filter>5. Constrains</Filter>
+      <Filter>05. Constrains</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
