@@ -36,11 +36,17 @@
     <ClInclude Include="BoxCollider.h">
       <Filter>03. Collider</Filter>
     </ClInclude>
-    <ClInclude Include="PlaneCollider.h">
-      <Filter>03. Collider</Filter>
-    </ClInclude>
     <ClInclude Include="Joint.h">
       <Filter>05. Constrains</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollider.h">
+      <Filter>03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCollider.h">
+      <Filter>03. Collider</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -56,11 +62,17 @@
     <ClCompile Include="BoxCollider.cpp">
       <Filter>03. Collider</Filter>
     </ClCompile>
-    <ClCompile Include="PlaneCollider.cpp">
-      <Filter>03. Collider</Filter>
-    </ClCompile>
     <ClCompile Include="Joint.cpp">
       <Filter>05. Constrains</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollider.cpp">
+      <Filter>03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCollider.cpp">
+      <Filter>03. Collider</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

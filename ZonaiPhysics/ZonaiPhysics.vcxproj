@@ -148,19 +148,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="CapsuleCollider.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="Joint.h" />
-    <ClInclude Include="PlaneCollider.h" />
+    <ClInclude Include="MeshCollider.h" />
     <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="SphereCollider.h" />
     <ClInclude Include="World.h" />
     <ClInclude Include="ZonaiPhysics.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="CapsuleCollider.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="Joint.cpp" />
-    <ClCompile Include="PlaneCollider.cpp" />
+    <ClCompile Include="MeshCollider.cpp" />
     <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
