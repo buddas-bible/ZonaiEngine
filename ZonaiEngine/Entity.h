@@ -15,6 +15,9 @@ namespace ZonaiEngine
 
 		Transform* transform;
 		std::vector<Component*> components;
+
+		Component* AddComponent();
+		Component* GetComponent();
 	};
 }
 

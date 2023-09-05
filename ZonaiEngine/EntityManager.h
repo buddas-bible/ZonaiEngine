@@ -3,10 +3,12 @@
 
 namespace ZonaiEngine
 {
+	class Entity;
+
 	class EntityManager
 	{
 	public:
-
+		Entity* CreateEntity();
 	};
 }
 

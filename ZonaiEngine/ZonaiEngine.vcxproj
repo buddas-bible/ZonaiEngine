@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="BaseDefine.h" />
     <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="CapsuleCollider.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="Debug.h" />
@@ -159,11 +160,13 @@
     <ClInclude Include="HingeJoint.h" />
     <ClInclude Include="MeshCollider.h" />
     <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="Object.h" />
     <ClInclude Include="PhysicsSystem.h" />
     <ClInclude Include="RigidBody.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="SoftBody.h" />
+    <ClInclude Include="SoundSystem.h" />
     <ClInclude Include="SphereCollider.h" />
     <ClInclude Include="SpringJoint.h" />
     <ClInclude Include="TerreinCollider.h" />
@@ -172,6 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="CapsuleCollider.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Debug.cpp" />
@@ -182,11 +186,13 @@
     <ClCompile Include="HingeJoint.cpp" />
     <ClCompile Include="MeshCollider.cpp" />
     <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="PhysicsSystem.cpp" />
     <ClCompile Include="RigidBody.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SoftBody.cpp" />
+    <ClCompile Include="SoundSystem.cpp" />
     <ClCompile Include="SphereCollider.cpp" />
     <ClCompile Include="SpringJoint.cpp" />
     <ClCompile Include="TerreinCollider.cpp" />
