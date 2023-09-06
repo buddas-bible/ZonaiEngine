@@ -11,17 +11,18 @@ namespace ZonaiEngine
 	class RigidBody
 	{
 	public:
-
+		RigidBody() noexcept = default;
+		virtual ~RigidBody() noexcept = default;
 
 	private:
 		ZonaiPhysics::IRigidBody* rigidbody;
 
 	public:
-		_declspec(property(put = SetMass, get = GetMass)) float mass;				// 질량
-		_declspec(property(put = SetRestitution, get = GetRestitution)) float restitution;
+		_declspec(property(put = SetMass, get = GetMass)) float mass;							// 질량
+		_declspec(property(put = SetRestitution, get = GetRestitution)) float restitution;		// 
 		_declspec(property(put = SetLinerDrag)) float linerDrag;								// 선형 감쇠
-		_declspec(property(put = SetAngularDrag)) float angularDrag;								// 회전 감쇠
-		_declspec(property(put = SetKinematic, get = isKinematic)) bool kinematic;
+		_declspec(property(put = SetAngularDrag)) float angularDrag;							// 회전 감쇠
+		_declspec(property(put = SetKinematic, get = isKinematic)) bool kinematic;				// 
 		// _declspec(property(put = )) bool freezeX;
 		// _declspec(property(put = )) bool freezeY;
 		// _declspec(property(put = )) bool freezeZ;
