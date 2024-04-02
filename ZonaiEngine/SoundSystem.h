@@ -1,5 +1,8 @@
 #pragma once
-class SoundSystem
-{
-};
 
+namespace Zonai
+{
+	class SoundSystem
+	{
+	};
+}

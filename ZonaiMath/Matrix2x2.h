@@ -1,7 +1,7 @@
 #pragma once
 #include "Matrix1x2.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	class Vector2D;
 	class Matrix1x2;

@@ -2,7 +2,7 @@
 #include <smmintrin.h>
 #include <sal.h>
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	class Vector3D;
 	class Matrix1x4;

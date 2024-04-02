@@ -1,18 +1,21 @@
 #include "ZonaiMath.h"
 
-namespace ZonaiMath
+namespace Math
 {
 	class Matrix4x4;
 }
 
-namespace ZonaiPhysics
+namespace Physics
 {
+	using namespace Zonai;
+	using namespace Zonai::Math;
+
 	struct MassData
 	{
 		float Mass;
 		float invMass;
-		ZonaiMath::Matrix4x4 inertia;
-		ZonaiMath::Matrix4x4 invInertia;
+		Matrix4x4 inertia;
+		Matrix4x4 invInertia;
 	};
 
 	class RigidBody

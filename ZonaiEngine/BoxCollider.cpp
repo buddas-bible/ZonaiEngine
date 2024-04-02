@@ -1,6 +1,6 @@
 #include "BoxCollider.h"
 
-namespace ZonaiEngine
+namespace Zonai
 {
 
 }

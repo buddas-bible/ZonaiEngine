@@ -2,7 +2,7 @@
 
 #include "ZonaiMath.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	/// <summary>
 	/// 오일러각을 매트릭스로 반환

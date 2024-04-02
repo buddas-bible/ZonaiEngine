@@ -147,7 +147,7 @@
     <ClInclude Include="Time.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Tween.h" />
-    <ClInclude Include="ZonaiUtility.h" />
+    <ClInclude Include="ZonaiUtil.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Random.cpp" />

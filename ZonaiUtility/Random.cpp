@@ -1,6 +1,6 @@
 #include "Random.h"
 
-namespace ZonaiUtility
+namespace Zonai::Util
 {
 
 }

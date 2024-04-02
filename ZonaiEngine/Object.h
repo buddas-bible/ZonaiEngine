@@ -1,6 +1,9 @@
 #pragma once
-class Object
-{
-    
-};
 
+namespace Zonai
+{
+    class Object
+    {
+
+    };
+}

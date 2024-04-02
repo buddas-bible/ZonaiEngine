@@ -1,7 +1,7 @@
 #include "Vector2D.h"
 #include <cmath>
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	float Vector2D::Length() const noexcept
 	{

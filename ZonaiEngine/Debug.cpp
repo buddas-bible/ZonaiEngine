@@ -1,5 +1,5 @@
 #include "Debug.h"
 
-namespace ZonaiEngine
+namespace Zonai::Debug
 {
 }

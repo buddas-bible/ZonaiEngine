@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	class Matrix4x4;
 	class Vector3D;
@@ -8,33 +8,33 @@ namespace ZonaiMath
 	class Quaternion;
 }
 
-namespace ZonaiEngine
+namespace Zonai::Debug
 {
 	class Debug
 	{
 	public:
 		static void DrawLine(
-			const ZonaiMath::Vector3D& _point1, 
-			const ZonaiMath::Vector3D& _point2,
-			const ZonaiMath::Vector4D& _color);
+			const Zonai::Math::Vector3D& _point1, 
+			const Zonai::Math::Vector3D& _point2,
+			const Zonai::Math::Vector4D& _color);
 		
 		static void DrawQuad(
-			const ZonaiMath::Vector3D& _position, 
-			const ZonaiMath::Quaternion& _rotation, 
-			const ZonaiMath::Vector3D& _scale,
-			const ZonaiMath::Vector4D& _color);
+			const Zonai::Math::Vector3D& _position, 
+			const Zonai::Math::Quaternion& _rotation, 
+			const Zonai::Math::Vector3D& _scale,
+			const Zonai::Math::Vector4D& _color);
 
 		static void DrawSphere(
-			const ZonaiMath::Vector3D& _position,
-			const ZonaiMath::Quaternion& _rotation,
-			const ZonaiMath::Vector3D& _scale,
-			const ZonaiMath::Vector4D& _color);
+			const Zonai::Math::Vector3D& _position,
+			const Zonai::Math::Quaternion& _rotation,
+			const Zonai::Math::Vector3D& _scale,
+			const Zonai::Math::Vector4D& _color);
 
 		static void DrawCube(
-			const ZonaiMath::Vector3D& _position,
-			const ZonaiMath::Quaternion& _rotation,
-			const ZonaiMath::Vector3D& _scale,
-			const ZonaiMath::Vector4D& _color);
+			const Zonai::Math::Vector3D& _position,
+			const Zonai::Math::Quaternion& _rotation,
+			const Zonai::Math::Vector3D& _scale,
+			const Zonai::Math::Vector4D& _color);
 
 		static void DebugRender();
 	};

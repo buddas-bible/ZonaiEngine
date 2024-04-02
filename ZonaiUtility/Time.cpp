@@ -1,6 +1,6 @@
 #include "Time.h"
 
-namespace ZonaiUtility
+namespace Zonai::Util
 {
 
 }

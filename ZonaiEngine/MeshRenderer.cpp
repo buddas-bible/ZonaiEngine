@@ -1,6 +1,6 @@
 #include "MeshRenderer.h"
 
-namespace ZonaiEngine
+namespace Zonai
 {
 
 }

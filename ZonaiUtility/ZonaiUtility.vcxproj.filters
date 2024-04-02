@@ -44,7 +44,7 @@
     <ClInclude Include="Random.h">
       <Filter>04. Random</Filter>
     </ClInclude>
-    <ClInclude Include="ZonaiUtility.h">
+    <ClInclude Include="ZonaiUtil.h">
       <Filter>00. ZonaiUtility</Filter>
     </ClInclude>
   </ItemGroup>

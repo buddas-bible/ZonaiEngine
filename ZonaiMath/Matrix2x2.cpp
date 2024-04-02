@@ -1,13 +1,13 @@
 #include "Matrix2x2.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	float Matrix2x2::Determinant() const noexcept
 	{
 		return 0.f;
 	}
 
-	ZonaiMath::Matrix2x2 Matrix2x2::Transpose() const noexcept
+	Zonai::Math::Matrix2x2 Matrix2x2::Transpose() const noexcept
 	{
 		return Matrix2x2
 		{
@@ -16,12 +16,12 @@ namespace ZonaiMath
 		};
 	}
 
-	ZonaiMath::Matrix2x2 Matrix2x2::Inverse() const noexcept
+	Zonai::Math::Matrix2x2 Matrix2x2::Inverse() const noexcept
 	{
 		return Matrix2x2();
 	}
 
-	ZonaiMath::Matrix2x2 Matrix2x2::operator+(const Matrix2x2& other) const noexcept
+	Zonai::Math::Matrix2x2 Matrix2x2::operator+(const Matrix2x2& other) const noexcept
 	{
 		return Matrix2x2
 		(
@@ -33,7 +33,7 @@ namespace ZonaiMath
 		);
 	}
 
-	ZonaiMath::Matrix2x2& Matrix2x2::operator+=(const Matrix2x2& other) noexcept
+	Zonai::Math::Matrix2x2& Matrix2x2::operator+=(const Matrix2x2& other) noexcept
 	{
 		this->e00 += other.e00;
 		this->e01 += other.e01;
@@ -44,7 +44,7 @@ namespace ZonaiMath
 		return *this;
 	}
 
-	ZonaiMath::Matrix2x2 Matrix2x2::operator-(const Matrix2x2& other) const noexcept
+	Zonai::Math::Matrix2x2 Matrix2x2::operator-(const Matrix2x2& other) const noexcept
 	{
 		return Matrix2x2
 		(
@@ -56,7 +56,7 @@ namespace ZonaiMath
 		);
 	}
 
-	ZonaiMath::Matrix2x2& Matrix2x2::operator-=(const Matrix2x2& other) noexcept
+	Zonai::Math::Matrix2x2& Matrix2x2::operator-=(const Matrix2x2& other) noexcept
 	{
 		this->e00 -= other.e00;
 		this->e01 -= other.e01;
@@ -67,14 +67,14 @@ namespace ZonaiMath
 		return *this;
 	}
 
-	ZonaiMath::Matrix2x2 Matrix2x2::operator*(const Matrix2x2& other) const noexcept
+	Zonai::Math::Matrix2x2 Matrix2x2::operator*(const Matrix2x2& other) const noexcept
 	{
 		Matrix2x2 temp(*this);
 
 		return temp *= other;
 	}
 
-	ZonaiMath::Matrix2x2& Matrix2x2::operator*=(const Matrix2x2& other) noexcept
+	Zonai::Math::Matrix2x2& Matrix2x2::operator*=(const Matrix2x2& other) noexcept
 	{
 		Matrix2x2 temp(*this);
 

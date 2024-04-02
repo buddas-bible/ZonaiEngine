@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ZonaiEngine
+namespace Zonai
 {
 	class PhysicsSystem
 	{

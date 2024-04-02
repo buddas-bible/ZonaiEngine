@@ -9,7 +9,7 @@
 #include "Vector4D.h"
 #include "Vector3D.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	Vector3D::operator Matrix1x3() noexcept
 	{

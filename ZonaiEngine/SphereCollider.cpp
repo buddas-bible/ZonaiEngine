@@ -1,4 +1,5 @@
 #include "SphereCollider.h"
-namespace ZonaiEngine
+
+namespace Zonai
 {
 }

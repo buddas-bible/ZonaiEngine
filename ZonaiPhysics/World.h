@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ZonaiPhysics
+namespace Zonai::Physics
 {
 	class World
 	{

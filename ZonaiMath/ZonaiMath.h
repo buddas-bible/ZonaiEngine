@@ -9,7 +9,7 @@
 
 #include "Quaternion.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	static constexpr float PI = 3.14159265358979323846f;
 	static constexpr float Epsilon = 0.0001f;

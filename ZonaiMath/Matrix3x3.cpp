@@ -1,7 +1,7 @@
 #include "Matrix3x3.h"
 
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	Matrix3x3 Matrix3x3::Transpose() noexcept
 	{

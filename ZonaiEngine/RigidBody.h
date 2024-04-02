@@ -6,7 +6,7 @@ namespace ZonaiPhysics
 	class IRigidBody;
 }
 
-namespace ZonaiEngine
+namespace Zonai
 {
 	class RigidBody
 	{
@@ -27,15 +27,15 @@ namespace ZonaiEngine
 		// _declspec(property(put = )) bool freezeY;
 		// _declspec(property(put = )) bool freezeZ;
 
-		_declspec(property(put = SetVelocity, get = GetVelocity)) ZonaiMath::Vector3D velocity;
-		_declspec(property(put = SetAngularVelocity, get = GetAngularVelocity)) ZonaiMath::Vector3D angularVelocity;
+		_declspec(property(put = SetVelocity, get = GetVelocity)) Zonai::Math::Vector3D velocity;
+		_declspec(property(put = SetAngularVelocity, get = GetAngularVelocity)) Zonai::Math::Vector3D angularVelocity;
 
 #pragma region Get
 		bool isKinematic() noexcept;
 		const float GetMass() noexcept;
 		const float GetRestitution() noexcept;
-		const ZonaiMath::Vector3D GetVelocity() noexcept;
-		const ZonaiMath::Vector3D GetAngularVelocity() noexcept;
+		const Zonai::Math::Vector3D GetVelocity() noexcept;
+		const Zonai::Math::Vector3D GetAngularVelocity() noexcept;
 #pragma endregion Get
 
 #pragma region Set
@@ -44,14 +44,14 @@ namespace ZonaiEngine
 		void SetRestitution(const float) noexcept;
 		void SetLinerDrag(const float) noexcept;
 		void SetAngularDrag(const float) noexcept;
-		void SetVelocity(const ZonaiMath::Vector3D&) noexcept;
-		void SetAngularVelocity(const ZonaiMath::Vector3D&) noexcept;
+		void SetVelocity(const Zonai::Math::Vector3D&) noexcept;
+		void SetAngularVelocity(const Zonai::Math::Vector3D&) noexcept;
 #pragma endregion Set
 
 		bool isAwake() noexcept;
-		void AddForce(const ZonaiMath::Vector3D&) noexcept;
-		void AddTorque(const ZonaiMath::Vector3D&) noexcept;
-		void AddImpulse(const ZonaiMath::Vector3D&, const ZonaiMath::Vector3D&) noexcept;
+		void AddForce(const Zonai::Math::Vector3D&) noexcept;
+		void AddTorque(const Zonai::Math::Vector3D&) noexcept;
+		void AddImpulse(const Zonai::Math::Vector3D&, const Zonai::Math::Vector3D&) noexcept;
 	};
 }
 

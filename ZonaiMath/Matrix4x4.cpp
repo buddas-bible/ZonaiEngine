@@ -3,7 +3,7 @@
 #include "Matrix4x4.h"
 
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	Matrix4x4 Matrix4x4::Transpose() const noexcept
 	{

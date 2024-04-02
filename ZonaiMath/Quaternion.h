@@ -1,7 +1,7 @@
 #pragma once
 #include <smmintrin.h>
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	class Vector4D;
 

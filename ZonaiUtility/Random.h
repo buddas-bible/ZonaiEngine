@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ZonaiUtility
+namespace Zonai::Util
 {
 	class Random
 	{

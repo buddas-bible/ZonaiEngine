@@ -1,4 +1,4 @@
 #include "MeshCollider.h"
-namespace ZonaiEngine
+namespace Zonai
 {
 }

@@ -1,6 +1,6 @@
 #include "SceneManager.h"
 
-namespace ZonaiEngine
+namespace Zonai
 {
 
 }

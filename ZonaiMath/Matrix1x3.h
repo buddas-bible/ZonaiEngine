@@ -1,6 +1,6 @@
 #pragma once
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	struct Vector3D;
 

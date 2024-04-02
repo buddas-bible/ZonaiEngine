@@ -1,6 +1,6 @@
 #include "Entity.h"
 
-namespace ZonaiEngine
+namespace Zonai
 {
 
 }

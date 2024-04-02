@@ -8,7 +8,7 @@
 
 #include "Vector4D.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	Vector4D::Vector4D(const Vector3D& _other, const float _w) noexcept
 		: x{ _other.x }, y{ _other.y }, z{ _other.z }, w{ _w }

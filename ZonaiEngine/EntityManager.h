@@ -1,7 +1,7 @@
 #pragma once
 #include "BaseDefine.h"
 
-namespace ZonaiEngine
+namespace Zonai
 {
 	class Entity;
 
@@ -9,6 +9,8 @@ namespace ZonaiEngine
 	{
 	public:
 		Entity* CreateEntity();
+
+
 	};
 }
 

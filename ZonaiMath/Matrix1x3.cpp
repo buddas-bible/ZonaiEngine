@@ -2,7 +2,7 @@
 
 #include "Matrix1x3.h"
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	Matrix1x3::operator Vector3D() noexcept
 	{

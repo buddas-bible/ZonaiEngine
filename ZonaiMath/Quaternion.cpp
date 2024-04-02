@@ -7,7 +7,7 @@
 #include "Quaternion.h"
 
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	Quaternion::operator Vector4D() noexcept
 	{

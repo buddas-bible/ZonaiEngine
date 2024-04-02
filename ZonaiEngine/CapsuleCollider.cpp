@@ -1,4 +1,4 @@
 #include "CapsuleCollider.h"
-namespace ZonaiEngine
+namespace Zonai
 {
 }

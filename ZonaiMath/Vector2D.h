@@ -1,7 +1,7 @@
 #pragma once
 #include <sal.h>
 
-namespace ZonaiMath
+namespace Zonai::Math
 {
 	class Vector2D
 	{

@@ -1,5 +1,8 @@
 #pragma once
-class ZonaiSounds
-{
-};
 
+namespace Zonai::Sound
+{
+	class ZonaiSounds
+	{
+	};
+}
