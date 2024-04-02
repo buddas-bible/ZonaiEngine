@@ -25,9 +25,6 @@ permissions:
 jobs:
   build:
     runs-on: windows-latest
-  strategy:
-    matrix:
-      config: [Debug, Release]
 
     steps:
       - name: Checkout code
